@@ -1,0 +1,97 @@
+body {
+  background-color: rgb(231, 231, 231);
+}
+.searchBox {
+  border: none; /* Remove borders for a cleaner look */
+  background-color: rgb(255, 255, 255); /* Subtle background color */
+  padding: 3rem;
+  border-radius: 10px; /* Rounded corners for a premium feel */
+  box-shadow: 0 4px 15px rgba(199, 199, 199, 0.986);
+  max-width: 500px; /* Set a max width for better mobile responsiveness */
+  margin: 2rem auto; /* Center the box horizontally */
+  text-align: center; /* Center content inside the box */
+  color: white;
+}
+
+.pt-sans-regular-italic {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.2rem; /* Increase text size for readability */
+  color: #333; /* Darker color for premium contrast */
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif; /* Use a premium font for headers */
+  font-size: 2rem;
+  font-weight: 600;
+  color: #4a4a4a; /* Softer dark shade for the header */
+  margin-bottom: 1.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.MuiTextField-root {
+  width: 80%;
+  margin-bottom: 1rem;
+}
+
+button {
+  font-family: "PT Sans", sans-serif;
+  font-size: 1rem;
+  background-color: #007bff; /* Premium blue color */
+  color: white;
+  border-radius: 5px;
+  padding: 0.5rem 2rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+p {
+  font-family: "PT Sans", sans-serif;
+  font-size: 1rem;
+  color: #555; /* Medium gray color for text */
+  margin: 0.5rem 0;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #333;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.weatherData {
+  background-color: #ffffff; /* White background for weather details */
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); /* Light shadow for clean separation */
+  margin-top: 2rem;
+  text-align: left;
+  width: 100%;
+  max-width: 400px;
+  margin: 2rem auto;
+}
+
+img {
+  max-width: 200px;
+  height: inherit;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+.span {
+  background-color: rgb(241, 245, 0);
+
+  border-radius: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  /* columns: red; */
+}
